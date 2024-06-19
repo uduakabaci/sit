@@ -1,0 +1,27 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "uduakabaci",
+  "license": "MIT",
+  "source": [
+    "navbar.html"
+  ],
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "typescript": "^5.2.2"
+  },
+  "targets": {
+    "library": {
+      "source": "src/navbar.ts"
+    }
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/transformer-typescript-tsc": "^2.9.3"
+  }
+}
